@@ -1,0 +1,209 @@
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    margin: 0 auto;
+}
+nav img{
+    width:200px;}
+nav ul{
+    display:flex;
+    list-style: none;
+    gap:20px;
+    color:#ababab;:
+}
+nav li:hover{
+    color:#00b39b;
+}
+#about{
+    color:#00b39b;
+    font-size: 20px;
+}
+/* end of navbar */
+/* making section */
+#section{
+    
+    width:70%;
+    margin: 0 auto;
+    margin-top: 80px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;align-items: center
+}
+#img{
+  width:60px;
+  align-items: center;
+}
+div h1{
+    color:#00b39b;
+    font-size: 30px;
+}
+#paragraph{
+    display: flex;
+    gap: 20px;
+    line-height:1,6;
+    color:#747474;
+    font-size:20px;
+}
+/* end of making section */
+/* making article */
+#article{
+    display:flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+    gap:30px
+}.patient{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    
+}
+.patient{ background-color: #00b39b; 
+} 
+.doctor{
+    background-color: #3d83df;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+
+}
+.clinics{background-color: #1b2734;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+
+}
+#la{
+    height:400px;width: 300px;;
+}
+#aa{
+    height:400px;width: 300px;
+}
+#bb{
+    height:400px;width: 300px;
+}
+.bild{
+    width:40px;padding-left: 20px;padding-top: 20px;
+}
+.position{
+    text-align: center;font-size: 25px;font-family: 'Courier New', Courier, monospace;color: aliceblue;
+}
+.ss{
+    padding-left: 20px;padding-right: 20px;font-size: 29px;color: aliceblue;
+}
+.no{ padding-left: 20px;}
+/* end of making article */
+/* making aside */
+#aside{
+    width:70%;
+    margin:0 auto;
+    margin-top: 80px;
+    display: flex;justify-content: space-between;
+
+    border-radius: 15px;
+}
+#p{
+    color:#00b39b;font-size: 20px;
+    width: 30%;
+    
+}
+.cart{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px
+}
+.cart img{
+    width: 21%;
+}
+.wo{list-style: none;
+}
+img{
+    width:60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+
+
+}
+#alors{
+    display:flex;
+    list-style: none;
+    gap:40px;
+    color:#ababab;:
+}
+#donc{
+    display:flex;
+    list-style: none;
+    gap:40px;
+    color:#ababab;:
+}
+#so{
+    display:flex;
+    list-style: none;
+    gap:30px;
+    color:#ababab;:
+}
+select{
+    color: white;
+    border: none;
+    outline: none;
+    font-size: medium;
+}
+/* end of making aside */
+/*conturies*/
+.all-contries{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+.country{
+    width: 30%;
+}
+.country div{
+    display: flex;
+    justify-content: space-between;
+}
+.country img{
+    width: 100%;
+    align-items: center;
+
+    gap: 10px;
+}
+.country button{
+    background-color: #3d83df;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 5px 8px;
+    border-radius: 15px;
+}
+.fin{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fin h1{
+   
+}
+.fin button{
+    background-color: rgb(60, 60, 240);
+    color:white;
+    padding: 20px;
+    border:none;
+    border-radius: ;
+}
+
+/*fin conturies*/
